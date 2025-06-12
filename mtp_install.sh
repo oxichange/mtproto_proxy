@@ -157,7 +157,7 @@ do_configure_os() {
 
 do_get_source() {
     info "Downloading proxy source code"
-    curl -L https://github.com/seriyps/mtproto_proxy/archive/master.tar.gz -o mtproto_proxy.tar.gz
+    curl -L https://github.com/oxichange/mtproto_proxy/archive/master.tar.gz -o mtproto_proxy.tar.gz
 
     info "Unpacking source code"
     tar -xaf mtproto_proxy.tar.gz
